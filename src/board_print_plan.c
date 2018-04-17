@@ -10,14 +10,14 @@ void printBoard(char* board[][8]){
                 printf("%d", numeral_board);
                   numeral_board--;}  //для нумерации по столбцу
 
-                colorBoard(c,r);
+                //colorBoard(c,r);
                 i_i++;
                 printf("[");
-                zero_color;
+                //zero_color;
                 printf("%c", *(board[r][c]));
-                colorBoard(c,r);
+                //colorBoard(c,r);
                 printf("]");
-                zero_color;
+                //zero_color;
  
             }
             printf("\n");
