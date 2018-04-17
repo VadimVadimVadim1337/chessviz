@@ -56,3 +56,5 @@ int main()
     board[0][6]=&black_night;
     board[0][7]=&black_rook;
         }
+    return 0;
+}
