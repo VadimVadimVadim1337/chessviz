@@ -22,7 +22,7 @@ int main()
     char block = ' ';
     char *lostBlackPieces[16];
     char *lostWhitePieces[16];
-
+    int correctly=0;
 
 
 
@@ -97,7 +97,6 @@ void movePawn(char *piece, int r, int c, int r_end, int c_end){
 
 }
 //main
-int correctly=0;
 int end;
     initBoard();
     int z=1;
