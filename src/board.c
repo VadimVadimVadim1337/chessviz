@@ -1,6 +1,7 @@
 #include "board.h"
 int main()
 {
+    int end;
 	char *board[8][8];
     char white_pawn = 'p';
     char white_rook = 'r';
@@ -18,7 +19,6 @@ int main()
     char block = ' ';
     char *lostBlackPieces[16];
     char *lostWhitePieces[16];
-
 
 
 
