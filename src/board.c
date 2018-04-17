@@ -1,3 +1,4 @@
+#include "board.h"
 int main()
 {
 	char *board[8][8];
