@@ -57,3 +57,12 @@ int main()
     board[0][6]=&black_night;
     board[0][7]=&black_rook;
         }
+
+    initBoard();
+
+    while(end!=EOF){
+    printBoard(board);
+    }
+
+    return 0;
+}
