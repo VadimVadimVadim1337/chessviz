@@ -1,4 +1,4 @@
-#include "board_print_html.h"
+#include "board.h"
 void printBoard(char* board[][8]){
         int i_i=0;
         int numeral_board=8;
