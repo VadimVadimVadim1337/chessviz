@@ -1,7 +1,6 @@
 #include "board.h"
 int main()
 {
-    int end;
 	char *board[8][8];
     char white_pawn = 'p';
     char white_rook = 'r';
@@ -9,7 +8,6 @@ int main()
     char white_bishop = 'b';
     char white_queen = 'q';
     char white_king = 'k';
-    char white_block = ' ';
     char black_pawn = 'P';
     char black_rook = 'R';
     char black_night = 'N';
@@ -17,8 +15,6 @@ int main()
     char black_queen = 'Q';
     char black_king = 'K';
     char block = ' ';
-    char *lostBlackPieces[16];
-    char *lostWhitePieces[16];
 
 
 

@@ -9,7 +9,7 @@ void movePawn(char *piece, int r, int c, int r_end, int c_end){
 
 }
 //main
-int end;
+int end=0;
 int correctly=0;
 
     int z=1;
