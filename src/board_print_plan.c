@@ -10,17 +10,34 @@ void printBoard(char* board[][8]){
                 printf("%d", numeral_board);
                   numeral_board--;}  //для нумерации по столбцу
 
-                //colorBoard(c,r);
+                colorBoard(c,r);
                 i_i++;
                 printf("[");
-                //zero_color;
+                zero_color;
                 printf("%c", *(board[r][c]));
-                //colorBoard(c,r);
+                colorBoard(c,r);
                 printf("]");
-                //zero_color;
+                zero_color;
  
             }
             printf("\n");
         }
         printf("  h  g  f  e  d  c  b  a\n"); //нумерация по вертикали
+    }
+
+        void colorBoard(int c, int r){
+              if (r%2 == 0){ //если строка нечётная то
+                      if (c%2 == 0 )
+                          white_color;
+                      else
+                          black_color;
+                  }
+
+                  if (r%2 != 0){ //если строка чётная то
+                      if (c%2 != 0 )
+                          white_color;
+                      else
+                          black_color;
+                  }     
+
     }
