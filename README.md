@@ -1,2 +1,2 @@
 # chessviz
-https://travis-ci.org/VadimVadimVadim1337/chessviz.svg?branch=master
+[![Build Status](https://travis-ci.org/VadimVadimVadim1337/chessviz.svg?branch=master)](https://travis-ci.org/VadimVadimVadim1337/chessviz)
