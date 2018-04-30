@@ -1,6 +1,8 @@
 #include "board.h"
 int main()
 {
+    print_chess_inscription();
+    
 	char *board[8][8];
     char white_pawn = 'p';
     char white_rook = 'r';
@@ -16,7 +18,7 @@ int main()
     char black_king = 'K';
     char block = ' ';
 
-
+                                                  
 
     
     void initBoard(){
