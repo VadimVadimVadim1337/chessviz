@@ -3,10 +3,13 @@ OBJ = gcc -c $< -o $@ $(CFLAGS)
 
 .PHONY: all clean
 
-all:folder bin/test bin/chess.exe
+all:folder folder2 bin/test bin/chess.exe
 
 folder:
-	mkdir build
+	mkdir build 
+
+folder2:
+	mkdir bin 
 
 bin/chess.exe: build/main.o build/board_print_plain.o build/board.o 
 	gcc $^ -o $@ $(CFLAGS)
@@ -35,4 +38,6 @@ bin/test: build/board.o build/test.o build/board_print_plain.o build/first_test.
 clean:
 	rm build/*.o
 	rm bin/*.exe
+	rm bin/test
 	rm -R build
+	rm -R bin
