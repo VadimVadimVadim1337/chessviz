@@ -201,7 +201,7 @@ if (correctly!=1){ //провекра на пустое место на доск
            	    printf("Ошибка, введена не та фигура\n");
            	    z--;
            	    } else {
-           	        printf("Захода в movePawn\n");
+                    
                     movePawn(board[r][int_c], r, int_c, r_end, int_c_end); 
                     /*функция передвижения*/
             }
